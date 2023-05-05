@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { StatisticsWrap, Title, Text, Span } from './Statistics.styled';
+import { Title, Text, Span } from './Statistics.styled';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   if (isNaN(positivePercentage)) {
