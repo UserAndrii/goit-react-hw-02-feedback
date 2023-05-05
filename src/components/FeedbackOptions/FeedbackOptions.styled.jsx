@@ -18,7 +18,6 @@ export const Button = styled.button`
   cursor: pointer;
 
   width: 100px;
-  margin-bottom: 20px;
   padding: 10px;
 
   color: #bfc0c0;

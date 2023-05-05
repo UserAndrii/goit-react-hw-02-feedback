@@ -41,7 +41,9 @@ export class App extends Component {
             options={options}
             onLeaveFeedback={this.onLeaveFeedback}
           />
+        </Section>
 
+        <Section title="Statistics">
           {total ? (
             <Statistics
               good={good}
